@@ -1,0 +1,85 @@
+html{
+    min-height: 100%;
+}
+body{
+    background-image: url(bg/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic{
+  width: 100px;
+}
+.pic img{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px
+}
+.top-header{
+    width: 100%;
+    max-width: 960px;
+    font: 3em "Sedgwick Ave", cursive;
+    color: white;
+    margin: 40px auto;
+    text-align: center;
+    text-shadow: 4px 3px black;
+    font-weight: bolder;
+}
+.quotation{
+    width: 100%;
+    max-width: 960px;
+    font: 3em "Amatic Sc", cursive;
+    color: white;
+    margin: 40px auto;
+    text-align: center;
+    text-shadow: 4px 2px black;
+    font-weight: bold;
+}
+.anitext{
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.anitext li{
+    display: inline-block;
+    margin-right: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+    color: black;
+    opacity: 1;
+    transition: all 2.5s ease;
+}
+.anitext li:last-child{
+    margin-right: 0;
+}
+.anitext.hidden li{
+opacity: 0;
+}   
+.anitext.hidden li:nth-child(1){ transform: translateX(-200px) translateY(-200px)}
+.anitext.hidden li:nth-child(2){ transform: translateX(20px) translateY(100px)}
+.anitext.hidden li:nth-child(3){ transform: translateX(-150px) translateY(-80px)}
+.anitext.hidden li:nth-child(4){ transform: translateX(-10px) translateY(-200px)}
+.anitext.hidden li:nth-child(5){ transform: translateX(300px) translateY(-200px)}
+.anitext.hidden li:nth-child(6){ transform: translateX(-200px) translateY(-20px)}
+.anitext.hidden li:nth-child(7){ transform: translateX(-50px) translateY(-300px)}
+#selector{
+    width: 588px;
+    height:48px;
+    margin: 2em;
+    display: block;
+}
+button{
+    width:16%;
+    background: white;
+    height:50px;
+    font-size: 80px;
+    font: 2em "Amatic SC", cursive;
+    font-weight: bolder;
+    border-radius: 15px;
+    margin-left: 5px;
+}

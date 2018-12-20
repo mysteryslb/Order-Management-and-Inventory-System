@@ -1,0 +1,77 @@
+html{
+    min-height: 100%;
+}
+body{
+    background-image: url(bg/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-header{
+    width: 100%;
+    max-width: 960px;
+    font: 3em "Sedgwick Ave", cursive;
+    color: white;
+    margin: 40px auto;
+    text-align: center;
+    text-shadow: 4px 3px black;
+    font-weight: bolder;
+}
+#selector{
+    width: 588px;
+    height:48px;
+    margin: 2em;
+    display: block;
+}
+button{
+    width:16%;
+    background: white ;
+    height:50px;
+    font-size: 80px;
+    font: 2em "Amatic SC", cursive;
+    font-weight: bolder;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+.aboutus{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    width: 800px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.med{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 100px;
+    right: 30px;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+}.fb img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 180px;
+    right: 240px;
+}
+.ds img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 240px;
+    right: 240px;
+}
+.bc img{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    width: 1345px;
+    height: 300px;
+}
+

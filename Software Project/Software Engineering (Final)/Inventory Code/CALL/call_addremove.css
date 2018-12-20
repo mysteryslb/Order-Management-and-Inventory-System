@@ -1,0 +1,97 @@
+html{
+    min-height: 100%;
+}
+body{
+    background-image: url(addbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic1 img{
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 250px;
+}
+.pic2 img{
+    position: absolute;
+    bottom: 80px;
+    left: 80px;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 250px;
+}
+.pic3 img{
+    position: absolute;
+    top: 80px;
+    right: 420px;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 250px;
+}
+.pic4 img{
+    position: absolute;
+    bottom: 80px;
+    right: 420px;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 250px;
+}
+.btn1 button{
+    position: absolute;
+    left:300px;
+    top: 160px;
+    width:320px;
+    background: white;
+    height:50px;
+    font-size: 80px;
+    font: 2em "Amatic SC", cursive;
+    font-weight: bolder;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+.btn2 button{
+    position: absolute;
+    left: 300px;
+    bottom: 160px;
+    width:320px;
+    background: white;
+    height:50px;
+    font-size: 80px;
+    font: 2em "Amatic SC", cursive;
+    font-weight: bolder;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+.btn3 button{
+    position: absolute;
+    right: 80px;
+    top: 160px;
+    width:320px;
+    background: white;
+    height:50px;
+    font-size: 80px;
+    font: 2em "Amatic SC", cursive;
+    font-weight: bolder;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+.btn4 button{
+    position: absolute;
+    right: 80px;
+    bottom: 160px;
+    width:320px;
+    background: white;
+    height:50px;
+    font-size: 80px;
+    font: 2em "Amatic SC", cursive;
+    font-weight: bolder;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+

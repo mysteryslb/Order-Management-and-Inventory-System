@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TextBox5.Text" xml:space="preserve">
+    <value>-&gt; Valid for one (1) slot of All Event Package: Catering Service and Food by        J&amp;Js Kitchen Catering Co.
+-&gt; For 50 Persons
+-&gt; Complete Catering Amenities, Food and Service at a very affordable        price
+-&gt; Take the hassle out of catering at your next party, gathering or corporate        event
+-&gt; Enjoy more time mingling and working the crowd and less time preparing        and cooking
+-&gt; Feed the guests with mouth-watering and good quality food that are all             exceptionally and hygienically prepared
+-&gt; All event packages is great for occasion such as Birthdays, Corporate Events, Reunions and Parties
+
+</value>
+  </data>
+  <data name="TextBox3.Text" xml:space="preserve">
+    <value>Well, now you can celebrate easily with today’s deal: All Event Package that includes Catering Service, Food and Refreshing Drinks catered to you on your special occasion by J&amp;Js Kitchen Catering for as low as PHP15000 for 50 persons.
+</value>
+  </data>
+  <data name="TextBox2.Text" xml:space="preserve">
+    <value>Your party isn’t a party until you serve food to your guests—not just any food though. Let J&amp;Js Kitchen Catering help you out in throwing the best party with their Catering Package that will surely complete your event preparation.
+</value>
+  </data>
+  <data name="TextBox15.Text" xml:space="preserve">
+    <value>-&gt;Basic Sound system for kiddie and birthdays PHP 2,500.00
+-&gt;Basic Sounds System with one disco light PHP 3,000.00
+-&gt;LCD Projector PHP 2,000.00
+-&gt;Professional Sounds Lights with LCD projector PHP 8,500.00 (transportation charge applicable)
+-&gt;Professional Sounds Lights PHP 7,000.00 (transportation charge applicable)
+-&gt;Host / EMCEE PHP 3,500.00
+-&gt;Dessert Buffet PHP 5,500.00
+-&gt;Mobile bar PHP 8,000.00 (transportation charge applicable)</value>
+  </data>
+  <data name="TextBox9.Text" xml:space="preserve">
+    <value>-&gt;Floral centerpiece on all tables
+-&gt;Floral centerpiece for Buffet Table
+-&gt;Full silverware, glassware, and folded table napkins
+-&gt;Table with floor length and elegant white cloth with topper as per motif
+-&gt;Monobloc chairs with floor length white cover and ribbons as per motif</value>
+  </data>
+  <data name="TextBox17.Text" xml:space="preserve">
+    <value>For bookings less than 100 persons, a “below minimum charge" of PHP1,500.00 will be applied
+All packages are subject to PHP1,000.00 Transportation Charge, except venues located in Caloocan City
+Additional Transportation fee for out of town venues and those located in North/South Area depending on the distance
+-&gt;10% of the contract price will be charged upon “early” cancellation of the contract
+-&gt;20% of the contract price will be charged upon cancellation made a week before the event date
+-&gt;50% of the contract price will be charged if cancellation is made one day before the event date
+-&gt;100% of the contract price will be charged if cancelled on the day of the event date
+-&gt;Any losses, breakage, gate entrance fee will be charged to the client
+-&gt;Any Subdivision fee and/or CATERER’S BOND should be shouldered by the client
+-&gt;Service of staffs are up to four (4) hours only, Overtime Fee of PHP100.00 per hour per staff including the driver will be charged to the client
+-&gt;Additional PHP50.00 per floor per staff if the event is held in a building without service elevator or if the loading area is 50 meters away from the venue
+-&gt;Lechon Corkage of PHP500.00 per piece
+-&gt;Additional (List of choices is available upon request): Main Dish - PHP50.00/head Soup - PhP20.00/head, Pasta, Noodle and Vegetables - PHP40.00/head</value>
+  </data>
+</root>

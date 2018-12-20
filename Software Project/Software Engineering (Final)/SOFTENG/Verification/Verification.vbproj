@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2A280C4B-56FC-4D75-A29D-4D5FF6FB11CF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Verification.My.MyApplication</StartupObject>
+    <RootNamespace>Verification</RootNamespace>
+    <AssemblyName>Verification</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Verification.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Verification.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="accountsDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>accountsDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="accountsDataSet.vb">
+      <DependentUpon>accountsDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="AdminCustomerSupport.Designer.vb">
+      <DependentUpon>AdminCustomerSupport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminCustomerSupport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFinance.Designer.vb">
+      <DependentUpon>AdminFinance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFinance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminOwner.Designer.vb">
+      <DependentUpon>AdminOwner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminOwner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateOrderMain.Designer.vb">
+      <DependentUpon>CreateOrderMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreateOrderMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PA1a.Designer.vb">
+      <DependentUpon>PA1a.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PA1a.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PA1edit.designer.vb">
+      <DependentUpon>PA1edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PA1edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PA2edit.designer.vb">
+      <DependentUpon>PA2edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PA2edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PA3edit.designer.vb">
+      <DependentUpon>PA3edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PA3edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PA4edit.designer.vb">
+      <DependentUpon>PA4edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PA4edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PB1edit.designer.vb">
+      <DependentUpon>PB1edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PB1edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PB2edit.designer.vb">
+      <DependentUpon>PB2edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PB2edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PB3edit.designer.vb">
+      <DependentUpon>PB3edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PB3edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PB4edit.designer.vb">
+      <DependentUpon>PB4edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PB4edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PC1edit.designer.vb">
+      <DependentUpon>PC1edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PC1edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PC2edit.designer.vb">
+      <DependentUpon>PC2edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PC2edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PC3edit.designer.vb">
+      <DependentUpon>PC3edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PC3edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PC4edit.designer.vb">
+      <DependentUpon>PC4edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PC4edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PD1edit.designer.vb">
+      <DependentUpon>PD1edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PD1edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PD2edit.designer.vb">
+      <DependentUpon>PD2edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PD2edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PD3edit.designer.vb">
+      <DependentUpon>PD3edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PD3edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PD4edit.designer.vb">
+      <DependentUpon>PD4edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PD4edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PE1edit.designer.vb">
+      <DependentUpon>PE1edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PE1edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PE2edit.designer.vb">
+      <DependentUpon>PE2edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PE2edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PE3edit.designer.vb">
+      <DependentUpon>PE3edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PE3edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PE4edit.designer.vb">
+      <DependentUpon>PE4edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PE4edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PF1edit.designer.vb">
+      <DependentUpon>PF1edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PF1edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PF2edit.designer.vb">
+      <DependentUpon>PF2edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PF2edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PF3edit.designer.vb">
+      <DependentUpon>PF3edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PF3edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SP1Aedit.designer.vb">
+      <DependentUpon>SP1Aedit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SP1Aedit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SP1Bedit.designer.vb">
+      <DependentUpon>SP1Bedit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SP1Bedit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SP1Cedit.designer.vb">
+      <DependentUpon>SP1Cedit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SP1Cedit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SP1Dedit.designer.vb">
+      <DependentUpon>SP1Dedit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SP1Dedit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SP3edit.designer.vb">
+      <DependentUpon>SP3edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SP3edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPA2edit.designer.vb">
+      <DependentUpon>SPA2edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SPA2edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPB2edit.designer.vb">
+      <DependentUpon>SPB2edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SPB2edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPC2edit.designer.vb">
+      <DependentUpon>SPC2edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SPC2edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPD2edit.designer.vb">
+      <DependentUpon>SPD2edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SPD2edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start.designer.vb">
+      <DependentUpon>Start.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Start.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AdminCustomerSupport.resx">
+      <DependentUpon>AdminCustomerSupport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFinance.resx">
+      <DependentUpon>AdminFinance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminOwner.resx">
+      <DependentUpon>AdminOwner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateOrderMain.resx">
+      <DependentUpon>CreateOrderMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PA1a.resx">
+      <DependentUpon>PA1a.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PA1edit.resx">
+      <DependentUpon>PA1edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PA2edit.resx">
+      <DependentUpon>PA2edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PA3edit.resx">
+      <DependentUpon>PA3edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PA4edit.resx">
+      <DependentUpon>PA4edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PB1edit.resx">
+      <DependentUpon>PB1edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PB2edit.resx">
+      <DependentUpon>PB2edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PB3edit.resx">
+      <DependentUpon>PB3edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PB4edit.resx">
+      <DependentUpon>PB4edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PC1edit.resx">
+      <DependentUpon>PC1edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PC2edit.resx">
+      <DependentUpon>PC2edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PC3edit.resx">
+      <DependentUpon>PC3edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PC4edit.resx">
+      <DependentUpon>PC4edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD1edit.resx">
+      <DependentUpon>PD1edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD2edit.resx">
+      <DependentUpon>PD2edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD3edit.resx">
+      <DependentUpon>PD3edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PD4edit.resx">
+      <DependentUpon>PD4edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PE1edit.resx">
+      <DependentUpon>PE1edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PE2edit.resx">
+      <DependentUpon>PE2edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PE3edit.resx">
+      <DependentUpon>PE3edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PE4edit.resx">
+      <DependentUpon>PE4edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PF1edit.resx">
+      <DependentUpon>PF1edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PF2edit.resx">
+      <DependentUpon>PF2edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PF3edit.resx">
+      <DependentUpon>PF3edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SP1Aedit.resx">
+      <DependentUpon>SP1Aedit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SP1Bedit.resx">
+      <DependentUpon>SP1Bedit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SP1Cedit.resx">
+      <DependentUpon>SP1Cedit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SP1Dedit.resx">
+      <DependentUpon>SP1Dedit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SP3edit.resx">
+      <DependentUpon>SP3edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPA2edit.resx">
+      <DependentUpon>SPA2edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPB2edit.resx">
+      <DependentUpon>SPB2edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPC2edit.resx">
+      <DependentUpon>SPC2edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPD2edit.resx">
+      <DependentUpon>SPD2edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start.resx">
+      <DependentUpon>Start.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="accountsDataSet.xsc">
+      <DependentUpon>accountsDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="accountsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>accountsDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="accountsDataSet.xss">
+      <DependentUpon>accountsDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preview1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preview2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addbg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jlogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addbg2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\owner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="accounts.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\PA1content.png" />
+    <None Include="Resources\All_Event_Package%28Economy%29.PNG" />
+    <None Include="Resources\ext.png" />
+    <None Include="Resources\min.png" />
+    <None Include="Resources\minimize.jpg" />
+    <None Include="Resources\aboutbg1.jpeg" />
+    <None Include="Resources\exitbtn.jpg" />
+    <None Include="Resources\addbg.jpg" />
+    <None Include="Resources\menubg1.png" />
+    <None Include="Resources\finance.png" />
+    <None Include="Resources\custinfo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

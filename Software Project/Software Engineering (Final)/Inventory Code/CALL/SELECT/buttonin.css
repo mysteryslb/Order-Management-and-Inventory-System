@@ -1,0 +1,19 @@
+html{
+    min-height: 100%;
+}
+div.home{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+
+}
+div.back{
+    position: absolute;
+    top: 10px;
+    left: 55px;
+}
+div.out{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}

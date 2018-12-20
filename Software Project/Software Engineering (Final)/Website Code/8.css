@@ -1,0 +1,154 @@
+html{
+    min-height: 100%;
+}
+body{
+    background-image: url("bg/412.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#selector{
+    width: 588px;
+    height:48px;
+    margin: 2em;
+    display: block;
+}
+button{
+    width:16%;
+    background: white;
+    height:50px;
+    font-size: 80px;
+    font: 2em "Amatic SC", cursive;
+    font-weight: bolder;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+.top-header{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    margin: 40px auto;
+    font-weight: bolder;
+}
+.what h2{
+    text-align: center;
+}
+.what{
+    position: absolute;
+    top:540px;
+    left: 30px;
+    width: 800px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.high h2{
+    text-align: center;
+}
+.high
+{
+    position: absolute;
+    left: 850px;
+    top: 540px;
+    width: 475px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: bold; 
+}
+.head{
+    position: absolute;
+    right: 100px;
+    top: 150px;
+    width: 350px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.coup h2{
+    text-align: center;
+}
+.coup{  
+    position: absolute;
+    top: 800px;
+    left: 30px;
+    width: 800px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.head h2{
+    text-decoration: line-through;
+}
+.pic1 img{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    width: 200px;
+    height: 200px;    
+}
+.pic2 img{
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    width: 200px;
+    height: 200px;    
+}
+.pic3 img{
+    position: absolute;
+    top: 100px;
+    left: 430px;
+    width: 200px;
+    height: 200px;    
+}
+.pic4 img{
+    position: absolute;
+    top: 100px;
+    left: 640px;
+    width: 200px;
+    height: 200px;    
+}
+.pic5 img{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+    width: 200px;
+    height: 200px;    
+}
+.pic6 img{
+    position: absolute;
+    top: 310px;
+    left: 330px;
+    width: 200px;
+    height: 200px;    
+}
+.pic7 img{
+    position: absolute;
+    top: 310px;
+    left: 540px;
+    width: 200px;
+    height: 200px;    
+}
+.bg1 img{
+    position: absolute;
+    top: 540px;
+    left: 15px;
+    width: 820px;
+    height: 950px;
+}
+.bg2 img{
+    top: 15px;
+    width: 100%;
+    height: 520px;
+}
+.bg3 img{
+    position: absolute;
+    top: 540px;
+    left: 840px;
+    width: 495px;
+    height: 950px;
+}

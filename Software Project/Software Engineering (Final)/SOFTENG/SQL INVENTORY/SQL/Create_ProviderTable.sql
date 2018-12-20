@@ -1,0 +1,10 @@
+Use inventory;
+CREATE TABLE IF NOT EXISTS `provider` (
+  `ID` int NOT NULL AUTO_INCREMENT,
+  `ITEM` varchar(100) NOT NULL,
+  `QTY_CNST` int(11) NOT NULL,
+  `QTY_UNIT` varchar(100) NOT NULL,
+  `PRICE_BUY` int(11) NOT NULL,
+  `CAT` varchar(100) NOT NULL,
+  PRIMARY KEY (`ID`)
+)ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;

@@ -1,0 +1,47 @@
+								------------------------------------
+								| J&J's Kitchen Catering Inventory  |
+								-------------------------------------
+
+----------------------------------------------------------------**************************************-----------------------------------------------------------------
+*** How to use: ***
+
+	**Opening the Program**
+	The user can directly open the program using the .exe file within the installed folder or provided file. Once opened,  the user clicks on the welcome button 		and will be redirected to a login form. The user must now login in order to access the actual program.
+
+
+	**The Main Menu**
+	From the main menue, the user has access to 3 parts of the program, the Inventory, Customer and Workers Sections, click on the name to access that specific 	section of the program.
+
+
+	**Quick Access**
+	On the top left there are 3 quick access buttons, from  left to right, HOME (return user to main menu) BACK (returns user to previous form) LOGOUT (returns 	user to login)
+
+	
+	**Inventory**
+	The inventory section houses J&J's stock of all valuables needed to run the company, these includes Tableware, Ingreient, Menu and Bundles. Simply clicking the	 	desired sorting arrangement shall bring up the called upon table.
+
+
+	**Workers**
+	This houses the list of employees that J&J's Kitchen Catering is made of. It is also where the modification for passwords are held.  Note: that password 	modification and worker list modification is only accessible by the admin.
+
+
+	**Customers**
+	This section houses booked orders from customers served by J&J, both presently and past. It is also where feedbacks coming from the website is stored and 	viewed.
+
+***FAQS***
+1.) I can't try to login anymore
+	-You have exceeded the maximum tries of login in
+2.) I can't login
+	-There are hints at the password form
+3.) I forgot my password
+	-Ask   an admin to change your password for you
+4.) I'm admin,   I forgot my password
+	-Contact the programer using the contact provided below
+5.) Program won't take my input
+	-There is something worng with your values or are simply invalid
+
+
+***Contact Details***
+-Email: jp19reyes@gmail.com
+-Tweet at @JPongR
+-Programer: Reyes, John Paul  M.  Message through facebook at www.facebook.com\giratina191

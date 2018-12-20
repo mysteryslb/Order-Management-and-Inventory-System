@@ -1,0 +1,14 @@
+USE inventory;
+CREATE TABLE IF NOT EXISTS `consumer` (
+  `ID` int NOT NULL AUTO_INCREMENT,
+  `BUNDLE` varchar(100) NOT NULL,
+  `PAID` float NOT NULL,
+  `DUE` float NOT NULL,
+ `C_NAME` varchar(100) NOT NULL,
+ `C_ADD` varchar(100) NOT NULL,
+ `C_CONT` varchar(100) NOT NULL,
+ `D_ORDER` date NOT NULL,
+ `D_SERV` date NOT NULL,
+ `D_PAID` date NOT NULL,
+  PRIMARY KEY (`ID`)
+)ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
